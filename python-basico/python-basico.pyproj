@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f612aa8c-014d-4e20-b4e8-bc4ab75f5fa2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>python_basico.py</StartupFile>
+    <StartupFile>funcionais.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,7 +24,41 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Conjunto.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="conjuntos.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controles.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="funcionais.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="funcoes.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="iteradores_aleatoriedade.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="listas.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ordenacao_compreensoes.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="python_basico.py" />
+    <Compile Include="regex.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="strings_except.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tuplas.py" />
+    <Compile Include="dicionarios.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\2.7" />
